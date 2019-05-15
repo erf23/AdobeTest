@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/MyFramework-Swift.h</key>
 		<data>
-		Zz2WCm1JbsAwlnOJUFPJr7Zr0Xc=
+		wmH/YfgHyWZlk+aCbXx115zLbrc=
 		</data>
 		<key>Headers/MyFramework.h</key>
 		<data>
@@ -14,15 +14,15 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		pbrkNXi18Zf834yifsSpxJUu9AU=
+		GXJTr9K9vjoT8p/BvdK9gSEcGbw=
 		</data>
 		<key>Modules/MyFramework.swiftmodule/x86_64.swiftdoc</key>
 		<data>
-		OSz899a41lKA63YffJ+on8SWcs8=
+		BRWyQoWvH1PTVNbEt6Q8Ey5ho5E=
 		</data>
 		<key>Modules/MyFramework.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		1iSLYUQK8D31Y3qb9vv6you4b4A=
+		sXIs18bg+XtabugLUsV+LOZ7moY=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -35,7 +35,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			4KVUQtudX4KS1yFoxTy1afD2O0dyoBXQVIYFVfzV8Ew=
+			9AGvJKA6MCG6zDWsyM60ctyAjp3qaHef6gborlZtiEs=
 			</data>
 		</dict>
 		<key>Headers/MyFramework.h</key>
@@ -49,14 +49,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			W7l7e6LoiInHIoRKqTAu53IGPCA+Jd8KEAAUHuxfPwo=
+			H8yT80c/fxhXrh8SWxYXl2brx3iAEGPIVbceUrVGWJo=
 			</data>
 		</dict>
 		<key>Modules/MyFramework.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			U/lXptPowjn6pozIbwyIZcT7V07/ySAx061Pb9v2BmU=
+			bf3HrV87zjokiXENAMwrwcQM1js4D2AX+n9EAMHmrts=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

@@ -6,7 +6,6 @@ target 'MyFramework' do
   use_frameworks!
 
   # Pods for MyFramework
-  pod 'ACPAnalytics', '~> 2.0'
   pod 'ACPCore', '~> 2.0'
 
 end

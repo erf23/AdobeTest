@@ -1,26 +1,18 @@
 PODS:
-  - ACPAnalytics (2.0.4):
-    - ACPAnalytics/iOS (= 2.0.4)
-    - ACPCore (>= 2.1.1)
-  - ACPAnalytics/iOS (2.0.4):
-    - ACPCore (>= 2.1.1)
   - ACPCore (2.2.1):
     - ACPCore/iOS (= 2.2.1)
   - ACPCore/iOS (2.2.1)
 
 DEPENDENCIES:
-  - ACPAnalytics (~> 2.0)
   - ACPCore (~> 2.0)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
-    - ACPAnalytics
     - ACPCore
 
 SPEC CHECKSUMS:
-  ACPAnalytics: a879a024bc91e7b1674b3de66095c4419701aff7
   ACPCore: 92f9a6615ea2b6cde984e04f3cc868f39b0a001f
 
-PODFILE CHECKSUM: f90b047895dc9d378ccfd2be03975385d6f863aa
+PODFILE CHECKSUM: 8b926142038bb06a393105cf3b39c9537f53b9bd
 
-COCOAPODS: 1.6.1
+COCOAPODS: 1.6.0

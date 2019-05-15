@@ -8,7 +8,6 @@
 
 import Foundation
 import ACPCore
-import ACPAnalytics
 
 @objcMembers
 public class Analytics: NSObject {
@@ -19,9 +18,7 @@ public class Analytics: NSObject {
         ACPCore.configure(withAppId: "adobe.appID")
         ACPCore.setPrivacyStatus(.optIn)
         ACPIdentity.registerExtension()
-        ACPAnalytics.registerExtension()
         ACPLifecycle.registerExtension()
-        ACPSignal.registerExtension()
         ACPCore.start { }
         ACPCore.lifecycleStart(nil)
     }

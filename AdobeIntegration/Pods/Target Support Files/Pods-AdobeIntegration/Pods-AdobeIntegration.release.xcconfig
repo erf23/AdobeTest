@@ -1,9 +1,7 @@
-FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/ACPAnalytics" "${PODS_CONFIGURATION_BUILD_DIR}/ACPCore" "${PODS_ROOT}/../../MyFramework/Frameworks"
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/../../MyFramework/Frameworks"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
-HEADER_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/ACPAnalytics/ACPAnalytics.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/ACPCore/ACPCore.framework/Headers"
 LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
-LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/ACPAnalytics" "${PODS_ROOT}/ACPCore"
-OTHER_LDFLAGS = $(inherited) -ObjC -l"ACPAnalytics_iOS" -l"ACPCore_iOS" -l"ACPIdentity_iOS" -l"ACPLifecycle_iOS" -l"ACPSignal_iOS" -l"c++" -l"sqlite3.0" -l"z" -framework "ACPAnalytics" -framework "ACPCore" -framework "MyFramework" -framework "SystemConfiguration" -framework "UIKit" -framework "UserNotifications" -framework "WebKit"
+OTHER_LDFLAGS = $(inherited) -framework "MyFramework"
 PODS_BUILD_DIR = ${BUILD_DIR}
 PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
 PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
