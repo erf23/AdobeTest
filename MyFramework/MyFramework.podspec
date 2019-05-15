@@ -10,6 +10,6 @@ Pod::Spec.new do |s|
   # s.static_framework = true
   
   s.ios.vendored_frameworks = "Frameworks/MyFramework.framework"
-  s.dependency 		'ACPAnalytics', '~> 2.0'
-  s.dependency 		'ACPCore', '~> 2.0'
+  # s.dependency 		'ACPAnalytics', '~> 2.0'
+  # s.dependency 		'ACPCore', '~> 2.0'
 end

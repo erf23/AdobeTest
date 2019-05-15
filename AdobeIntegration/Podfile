@@ -7,5 +7,7 @@ target 'AdobeIntegration' do
 
   # Pods for AdobeIntegration
   pod 'MyFramework', :path => '../MyFramework'
+  pod 'ACPAnalytics'
+  pod 'ACPCore'
 
 end

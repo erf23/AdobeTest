@@ -7,11 +7,11 @@ PODS:
   - ACPCore (2.2.1):
     - ACPCore/iOS (= 2.2.1)
   - ACPCore/iOS (2.2.1)
-  - MyFramework (1.0.0):
-    - ACPAnalytics (~> 2.0)
-    - ACPCore (~> 2.0)
+  - MyFramework (1.0.0)
 
 DEPENDENCIES:
+  - ACPAnalytics
+  - ACPCore
   - MyFramework (from `../MyFramework`)
 
 SPEC REPOS:
@@ -26,8 +26,8 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   ACPAnalytics: a879a024bc91e7b1674b3de66095c4419701aff7
   ACPCore: 92f9a6615ea2b6cde984e04f3cc868f39b0a001f
-  MyFramework: 8b04883e21fd4ccf77675c442692af54691c7647
+  MyFramework: e82d1b1d172971a851a93f7c1ad0c0e0b33d0bc7
 
-PODFILE CHECKSUM: 549a762e88fb94be4751e5ed7113ecea1d0b45f7
+PODFILE CHECKSUM: 77ac21942ed76bd13114f497378f27623d34aae8
 
 COCOAPODS: 1.6.1
